@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AkBarsDigital/1.0.0": {
+        "dependencies": {
+          "MimeTypes": "2.2.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "AkBarsDigital.dll": {}
+        }
+      },
+      "MimeTypes/2.2.0": {},
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AkBarsDigital/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MimeTypes/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dysUH0YU0aqPQGvrX9S3yKxmXwSrS2cXhyE6oCa3CPNz84hgoZe8A9JkE9fVm+L/Ed/B4YKqIK+Z3x69RoYiiA==",
+      "path": "mimetypes/2.2.0",
+      "hashPath": "mimetypes.2.2.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}

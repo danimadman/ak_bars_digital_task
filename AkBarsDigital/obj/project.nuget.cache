@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SfIRdwIRYJ+Z5Z2VYFmHg754p/2ZBtOeV+/ck8V9m46J7Rq0zAWbFKxWKnDYU7p65WM3gDOHDOrXIoHDyrXiQg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\ak_bars_digital_task\\AkBarsDigital\\AkBarsDigital.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GrigorevDG\\.nuget\\packages\\mimetypes\\2.2.0\\mimetypes.2.2.0.nupkg.sha512",
+    "C:\\Users\\GrigorevDG\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
