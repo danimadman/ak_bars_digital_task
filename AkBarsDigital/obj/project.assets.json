@@ -2,17 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "MimeTypes/2.2.0": {
-        "type": "package",
-        "contentFiles": {
-          "contentFiles/cs/netcoreapp3.0/MimeTypes.cs.pp": {
-            "buildAction": "Compile",
-            "codeLanguage": "cs",
-            "copyToOutput": false,
-            "ppOutputPath": "MimeTypes.cs"
-          }
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -25,21 +14,6 @@
     }
   },
   "libraries": {
-    "MimeTypes/2.2.0": {
-      "sha512": "dysUH0YU0aqPQGvrX9S3yKxmXwSrS2cXhyE6oCa3CPNz84hgoZe8A9JkE9fVm+L/Ed/B4YKqIK+Z3x69RoYiiA==",
-      "type": "package",
-      "path": "mimetypes/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "contentFiles/cs/any/MimeTypes.NullableAttributes.cs.pp",
-        "contentFiles/cs/netcoreapp3.0/MimeTypes.cs.pp",
-        "contentFiles/cs/netstandard2.1/MimeTypes.cs.pp",
-        "images/nuget-icon.png",
-        "mimetypes.2.2.0.nupkg.sha512",
-        "mimetypes.nuspec"
-      ]
-    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -70,7 +44,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MimeTypes >= 2.2.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -121,12 +94,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "MimeTypes": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
